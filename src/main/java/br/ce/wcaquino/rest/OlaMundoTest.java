@@ -1,11 +1,11 @@
 package br.ce.wcaquino.rest;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.get;
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-import org.hamcrest.Matcher;
-import org.hamcrest.Matchers;
-import org.hamcrest.core.Is;
+import static org.hamcrest.Matchers.nullValue;
+
 import org.junit.Assert;
 import org.junit.Test;
 
